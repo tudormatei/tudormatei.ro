@@ -5,7 +5,9 @@ export function Education() {
   return (
     <section className="max-w-4xl mx-auto px-4 py-10">
       <h2 className="text-3xl font-semibold text-center mb-10">Education</h2>
-      <div className="space-y-8">
+
+      {/* Education Entries */}
+      <div className="space-y-8 mb-14">
         {education.map(
           ({ institution, degree, field, start, end, description }) => (
             <motion.div

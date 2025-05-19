@@ -15,6 +15,10 @@ import trafficSign from "./trafficSign.jpg";
 import slotSinners from "./slotSinners.png";
 import pixelCatcher from "./pixelCatcher.png";
 
+import deeplearning from "./deeplearning.png";
+import meta from "./meta.png";
+import udemy from "./udemy.png";
+
 export const images = {
   profilePic: profilePic,
   nicusorDan: nicusorDan,
@@ -31,4 +35,7 @@ export const images = {
   trafficSign: trafficSign,
   slotSinners: slotSinners,
   pixelCatcher: pixelCatcher,
+  deeplearning: deeplearning,
+  meta: meta,
+  udemy: udemy,
 };
