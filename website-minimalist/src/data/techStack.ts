@@ -19,7 +19,7 @@ export const techStack = [
   { name: "PostgreSQL", icon: SiPostgresql },
 
   { name: "Python", icon: SiPython },
-  { name: "Tensorflow", icon: SiTensorflow },
+  { name: "TensorFlow", icon: SiTensorflow },
   { name: "Flask", icon: SiFlask },
 
   { name: "C++", icon: SiCplusplus },
@@ -27,7 +27,7 @@ export const techStack = [
   { name: "JavaScript", icon: SiTypescript },
   { name: "TypeScript", icon: SiTypescript },
   { name: "React", icon: SiReact },
-  { name: "Native", icon: SiReact },
+  { name: "React Native", icon: SiReact },
   { name: "Next.js", icon: SiNextdotjs },
 
   { name: "Linux", icon: FaLinux },

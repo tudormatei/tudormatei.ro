@@ -13,11 +13,11 @@ export const experience = [
     start: "Dec 2022",
     end: "Feb 2023",
     description:
-      "Migrated the full-stack Virtomat cloud-native platform from PHP into a modern React front-end architecture, improving performance and user experience. Designed and implemented a scalable Strapi and NodeJS backend, enabling seamless integration with RESTful services.",
+      "Migrated the full-stack Virtomat cloud-native platform from PHP into a modern React front-end architecture, improving performance and user experience. Designed and implemented a scalable Strapi and Node.js backend, enabling seamless integration with RESTful services.",
   },
   {
     company: "ENSO Artificial Intelligence",
-    role: "DevOps Enigneer Intern",
+    role: "DevOps Engineer Intern",
     start: "May 2022",
     end: "Jul 2023",
     description:

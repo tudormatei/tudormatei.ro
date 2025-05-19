@@ -5,6 +5,8 @@ export const projects = [
     title: "Mayor's Chatbot",
     description:
       "Implemented a comprehensive email automation system for the chatbot of Bucharest's Mayor, Nicușor Dan.",
+    longDescription:
+      "This project automated email workflows, parsing user inputs and integrating with external APIs to provide dynamic responses. It reduced manual email handling completely!",
     tags: ["Python", "Automation"],
     type: "Other",
     image: images.nicusorDan,
@@ -13,7 +15,7 @@ export const projects = [
   {
     title: "Shotmaniacs",
     description:
-      "Full-stack webapp for shotmaniacs marketing company built with Java, Tomcat, JS, HTML, CSS and Postgresql.",
+      "Full-stack webapp for shotmaniacs marketing company built with Java, Tomcat, JS, HTML, CSS and PostgreSQL.",
     tags: ["React", "Java", "PostgreSQL"],
     type: "Webapp",
     image: images.shotmaniacs,
@@ -30,6 +32,8 @@ export const projects = [
     title: "Men in Black",
     description:
       "An end-to-end finance management platform developed for @meninblack.ro.",
+    longDescription:
+      "This project streamlined the Men in Black team’s workflow, boosting financial tracking accuracy by 50% and significantly enhancing organizational efficiency through a platform secured with advanced Spring Security configurations.",
     tags: ["React", "Spring", "PostgreSQL"],
     type: "Webapp",
     image: images.meninblack,
@@ -39,6 +43,8 @@ export const projects = [
     title: "J.A.R.V.I.S.",
     description:
       "Developed a local virtual assistant inspired by J.A.R.V.I.S. from Iron Man, featuring speech-to-text, text-to-speech, a large language model, and a user interface module.",
+    longDescription:
+      "Created an offline AI assistant that understands speech, talks back, and runs a local language model. Built voice and text input options, push-to-talk control, and both a complex user interface and CLI. Made it work smoothly on different operating systems, all without sending data to the cloud.",
     tags: ["Python", "AI"],
     type: "AI",
     image: images.jarvis,
@@ -63,8 +69,8 @@ export const projects = [
   {
     title: "Fingerprint GAN",
     description:
-      "Synthetic fingerprint generator built using a generative adverserial network through tensorflow.",
-    tags: ["Python", "Tensorflow"],
+      "Synthetic fingerprint generator built using a generative adversarial network.",
+    tags: ["Python", "TensorFlow"],
     type: "AI",
     image: images.fingerprint,
   },
@@ -80,7 +86,7 @@ export const projects = [
   {
     title: "SwiftDoc",
     description:
-      "React-based document auto-completion web applciation built with Spring Boot.",
+      "React-based document auto-completion web application built with Spring Boot.",
     tags: ["React", "Spring", "SQLite"],
     type: "Webapp",
     image: images.swiftdoc,
@@ -89,16 +95,18 @@ export const projects = [
     title: "AI Chatbot",
     description:
       "A conversational AI chatbot created using TensorFlow 2.0 and Python 3 and natural language processing techniques.",
-    tags: ["Python", "Tensorflow"],
+    tags: ["Python", "TensorFlow"],
     type: "AI",
     image: images.chatbot,
     link: "https://github.com/tudormatei/tensorflow-chatbot",
   },
   {
-    title: "Traffic Sign Recognition",
+    title: "Sign Recognition",
     description:
       "A machine learning model developed for my IB Extended Essay project, capable of accurately identifying traffic signs.",
-    tags: ["Python", "Tensorflow"],
+    longDescription:
+      "The goal of the IB Extended Essay was to determine whether a general-purpose machine learning model can accurately identify traffic signs from various regions worldwide, even when trained on a broad, non-specific dataset.",
+    tags: ["Python", "TensorFlow"],
     type: "AI",
     image: images.trafficSign,
   },
