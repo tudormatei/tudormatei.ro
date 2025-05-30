@@ -7,6 +7,7 @@ export function TechStack() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
+      id="techstack"
       className="max-w-4xl mx-auto px-4 py-10"
     >
       <h2 className="text-3xl font-semibold text-center mb-8">Tech Stack</h2>

@@ -3,7 +3,7 @@ import { education } from "../data/education";
 
 export function Education() {
   return (
-    <section className="max-w-4xl mx-auto px-4 py-10">
+    <section id="education" className="max-w-4xl mx-auto px-4 py-10">
       <h2 className="text-3xl font-semibold text-center mb-10">Education</h2>
 
       {/* Education Entries */}

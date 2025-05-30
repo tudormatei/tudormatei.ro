@@ -18,6 +18,9 @@ import pixelCatcher from "./pixelCatcher.png";
 import deeplearning from "./deeplearning.png";
 import meta from "./meta.png";
 import udemy from "./udemy.png";
+import nvidia from "./nvidia.png";
+import google from "./google.png";
+import amazon from "./amazon.png";
 
 export const images = {
   profilePic: profilePic,
@@ -38,4 +41,7 @@ export const images = {
   deeplearning: deeplearning,
   meta: meta,
   udemy: udemy,
+  nvidia: nvidia,
+  google: google,
+  amazon: amazon,
 };

@@ -2,7 +2,7 @@ import { contactItems } from "../data/contact";
 
 export function Contact() {
   return (
-    <section className="max-w-4xl mx-auto px-6 py-16 bg-white">
+    <section id="contact" className="max-w-4xl mx-auto px-6 py-16 bg-white">
       <h2 className="text-3xl font-semibold text-center mb-12 text-gray-900 tracking-wide">
         Contact & Links
       </h2>

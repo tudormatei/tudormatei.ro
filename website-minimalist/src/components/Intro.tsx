@@ -7,7 +7,10 @@ export function Intro() {
   );
 
   return (
-    <section className="flex flex-col sm:flex-row items-center sm:items-start gap-8 pt-28 sm:pt-36 px-4">
+    <section
+      id="intro"
+      className="flex flex-col sm:flex-row items-center sm:items-start gap-8 sm:pt-36 px-4"
+    >
       <img
         src={intro.profilePic}
         alt={intro.name}

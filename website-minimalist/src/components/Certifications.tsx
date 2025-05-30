@@ -2,9 +2,9 @@ import { certifications } from "../data/certifications";
 
 export function Certifications() {
   return (
-    <section className="max-w-4xl mx-auto px-4 py-10">
+    <section id="certifications" className="max-w-4xl mx-auto px-4 py-10">
       <h2 className="text-3xl font-semibold text-center mb-10">
-        Licenses & Certifications
+        Certifications & Licenses
       </h2>
       <ul className="space-y-3">
         {certifications.map(
