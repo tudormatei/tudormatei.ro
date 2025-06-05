@@ -8,11 +8,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Tudor Matei | Student & Programmer",
+  title: "Tudor Matei | Student, Programmer",
   description:
     "Computer Science student with hands-on experience in full-stack development, machine learning, and scalable system design.",
   openGraph: {
-    title: "Tudor Matei | Student & Programmer",
+    title: "Tudor Matei | Student, Programmer",
     description:
       "Computer Science student with hands-on experience in full-stack development, machine learning, and scalable system design.",
     url: "https://tudormatei.ro/projects",
