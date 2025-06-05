@@ -1,11 +1,11 @@
-import { Certifications } from "../../components/Certifications";
-import { Contact } from "../../components/Contact";
-import { Education } from "../../components/Education";
-import { Experience } from "../../components/Experience";
-import { Intro } from "../../components/Intro";
-import Navbar from "../../components/Navbar";
-import { Projects } from "../../components/Projects";
-import { TechStack } from "../../components/TechStack";
+import { Certifications } from "./components/Certifications";
+import { Contact } from "./components/Contact";
+import { Education } from "./components/Education";
+import { Experience } from "./components/Experience";
+import { Intro } from "./components/Intro";
+import Navbar from "./components/Navbar";
+import { Projects } from "./components/Projects";
+import { TechStack } from "./components/TechStack";
 
 export default function Home() {
   return (

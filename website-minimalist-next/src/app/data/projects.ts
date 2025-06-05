@@ -1,5 +1,3 @@
-import { images } from "../images/images";
-
 export const projects = [
   {
     title: "Mayor's Chatbot",
@@ -9,7 +7,7 @@ export const projects = [
       "This project automated email workflows, parsing user inputs and integrating with external APIs to provide dynamic responses. It reduced manual email handling completely!",
     tags: ["Python", "Automation"],
     type: "Other",
-    image: images.nicusorDan,
+    image: "/images/nicusordan.png",
     link: "https://nicusordan.ro/",
   },
   {
@@ -18,7 +16,7 @@ export const projects = [
       "Full-stack webapp for shotmaniacs marketing company built with Java, Tomcat, JS, HTML, CSS and PostgreSQL.",
     tags: ["React", "Java", "PostgreSQL"],
     type: "Webapp",
-    image: images.shotmaniacs,
+    image: "/images/shotmaniacs.png",
   },
   {
     title: "Audio Insight",
@@ -26,7 +24,7 @@ export const projects = [
       "Web application developed for real-time note taking through speech recognition.",
     tags: ["React", "AI", "Python"],
     type: "Webapp",
-    image: images.botgen,
+    image: "/images/botgen.png",
   },
   {
     title: "Men in Black",
@@ -36,7 +34,7 @@ export const projects = [
       "This project streamlined the Men in Black team’s workflow, boosting financial tracking accuracy by 50% and significantly enhancing organizational efficiency through a platform secured with advanced Spring Security configurations.",
     tags: ["React", "Spring", "PostgreSQL"],
     type: "Webapp",
-    image: images.meninblack,
+    image: "/images/meninblack.png",
     link: "https://meninblack.ro/",
   },
   {
@@ -47,7 +45,7 @@ export const projects = [
       "Created an offline AI assistant that understands speech, talks back, and runs a local language model. Built voice and text input options, push-to-talk control, and both a complex user interface and CLI. Made it work smoothly on different operating systems, all without sending data to the cloud.",
     tags: ["Python", "AI"],
     type: "AI",
-    image: images.jarvis,
+    image: "/images/jarvis.png",
   },
   {
     title: "SQLite Clone",
@@ -55,7 +53,7 @@ export const projects = [
       "Built a lightweight clone of the SQLite database engine in C, replicating core features such as SQL parsing, B-tree storage, and basic query execution.",
     tags: ["C", "SQL"],
     type: "Other",
-    image: images.sqliteClone,
+    image: "/images/sqliteClone.png",
     link: "https://github.com/tudormatei/sqlite-clone",
   },
   {
@@ -64,7 +62,7 @@ export const projects = [
       "High-performance API service developed using gRPC and Python designed for micro-service communication.",
     tags: ["Python", "gRPC", "Service"],
     type: "Other",
-    image: images.grpc,
+    image: "/images/grpc.png",
   },
   {
     title: "Fingerprint GAN",
@@ -72,7 +70,7 @@ export const projects = [
       "Synthetic fingerprint generator built using a generative adversarial network.",
     tags: ["Python", "TensorFlow"],
     type: "AI",
-    image: images.fingerprint,
+    image: "/images/fingerprint.png",
   },
   {
     title: "Barbershop",
@@ -80,7 +78,7 @@ export const projects = [
       "Built a barbershop landing website together with appointment making system.",
     tags: ["React"],
     type: "Webapp",
-    image: images.barbershop,
+    image: "/images/barbershop.png",
     link: "https://github.com/tudormatei/barber-shop",
   },
   {
@@ -89,7 +87,7 @@ export const projects = [
       "React-based document auto-completion web application built with Spring Boot.",
     tags: ["React", "Spring", "SQLite"],
     type: "Webapp",
-    image: images.swiftdoc,
+    image: "/images/swiftdoc.png",
   },
   {
     title: "AI Chatbot",
@@ -97,7 +95,7 @@ export const projects = [
       "A conversational AI chatbot created using TensorFlow 2.0 and Python 3 and natural language processing techniques.",
     tags: ["Python", "TensorFlow"],
     type: "AI",
-    image: images.chatbot,
+    image: "/images/chatbot.png",
     link: "https://github.com/tudormatei/tensorflow-chatbot",
   },
   {
@@ -108,7 +106,7 @@ export const projects = [
       "The goal of the IB Extended Essay was to determine whether a general-purpose machine learning model can accurately identify traffic signs from various regions worldwide, even when trained on a broad, non-specific dataset.",
     tags: ["Python", "TensorFlow"],
     type: "AI",
-    image: images.trafficSign,
+    image: "/images/trafficSign.jpg",
   },
   {
     title: "Slot Sinners",
@@ -116,7 +114,7 @@ export const projects = [
       "Slot Sinners is a slot machine game developed in Unity 3D for the DevHacks 2020 hackathon.",
     tags: ["C#", "Unity"],
     type: "Other",
-    image: images.slotSinners,
+    image: "/images/slotSinners.png",
     link: "https://github.com/tudormatei/slot-sinners",
   },
   {
@@ -125,7 +123,7 @@ export const projects = [
       "A fast-paced mobile game built using Unity Game Engine, available on Google Play.",
     tags: ["C#", "Unity"],
     type: "Other",
-    image: images.pixelCatcher,
+    image: "/images/pixelCatcher.png",
     link: "https://play.google.com/store/apps/details?id=com.TudorasterDevs.PixelCatcher",
   },
 ];

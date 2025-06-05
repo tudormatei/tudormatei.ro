@@ -1,10 +1,8 @@
-import { images } from "../images/images";
-
 export const certifications = [
   {
     field: "Back-End Developer Professional Certificate",
     organization: "Meta",
-    logo: images.meta,
+    logo: "/images/meta.png",
     issueDate: "May 2025",
     credentialId: "TO-FILL",
     credentialUrl: "TO-FILL",
@@ -12,7 +10,7 @@ export const certifications = [
   {
     field: "Front-End Developer Professional Certificate",
     organization: "Meta",
-    logo: images.meta,
+    logo: "/images/meta.png",
     issueDate: "May 2025",
     credentialId: "TO-FILL",
     credentialUrl: "TO-FILL",
@@ -20,7 +18,7 @@ export const certifications = [
   {
     field: "AI Infrastructure and Operations",
     organization: "NVIDIA",
-    logo: images.nvidia,
+    logo: "/images/nvidia.png",
     issueDate: "Jun 2025",
     credentialId: "TO-FILL",
     credentialUrl: "TO-FILL",
@@ -28,7 +26,7 @@ export const certifications = [
   {
     field: "Cybersecurity Professional Certificate",
     organization: "Google",
-    logo: images.google,
+    logo: "/images/google.png",
     issueDate: "Jun 2025",
     credentialId: "TO-FILL",
     credentialUrl: "TO-FILL",
@@ -36,7 +34,7 @@ export const certifications = [
   {
     field: "DevOps and AI on AWS Specialization",
     organization: "Amazon",
-    logo: images.amazon,
+    logo: "/images/amazon.png",
     issueDate: "Jun 2025",
     credentialId: "TO-FILL",
     credentialUrl: "TO-FILL",
@@ -44,7 +42,7 @@ export const certifications = [
   {
     field: "Tensorflow Specialization",
     organization: "DeepLearning.AI",
-    logo: images.deeplearning,
+    logo: "/images/deeplearning.png",
     issueDate: "Jun 2021",
     credentialId: "SBAEMBJ2JPE9",
     credentialUrl:
@@ -53,7 +51,7 @@ export const certifications = [
   {
     field: "Data Structures and Algorithms",
     organization: "Udemy",
-    logo: images.udemy,
+    logo: "/images/udemy.png",
     issueDate: "Apr 2022",
     credentialId: "UC-75eebe0c-95c2-41da-bd06-af356469c9bf",
     credentialUrl:

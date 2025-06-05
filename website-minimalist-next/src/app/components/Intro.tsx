@@ -15,6 +15,8 @@ export function Intro() {
       <Image
         src={intro.profilePic}
         alt={intro.name}
+        width={500}
+        height={500}
         className="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover shadow-md ring-2 ring-gray-200"
       />
       <div className="text-center sm:text-left space-y-3 max-w-xl">

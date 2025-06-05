@@ -53,6 +53,8 @@ export function Projects() {
                   <Image
                     src={image}
                     alt={title}
+                    width={500}
+                    height={300}
                     className="h-full w-full object-cover object-center"
                   />
                 </div>

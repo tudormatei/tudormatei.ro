@@ -25,6 +25,8 @@ export function Certifications() {
                 <Image
                   src={logo}
                   alt={organization}
+                  width={256}
+                  height={256}
                   className="w-8 h-8 object-contain flex-shrink-0 mt-1 sm:mt-0"
                 />
               )}
