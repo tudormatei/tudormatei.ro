@@ -1,29 +1,5 @@
 export const certifications = [
   {
-    field: "Back-End Developer Professional Certificate",
-    organization: "Meta",
-    logo: "/images/meta.png",
-    issueDate: "May 2025",
-    credentialId: "TO-FILL",
-    credentialUrl: "TO-FILL",
-  },
-  {
-    field: "Front-End Developer Professional Certificate",
-    organization: "Meta",
-    logo: "/images/meta.png",
-    issueDate: "May 2025",
-    credentialId: "TO-FILL",
-    credentialUrl: "TO-FILL",
-  },
-  {
-    field: "AI Infrastructure and Operations",
-    organization: "NVIDIA",
-    logo: "/images/nvidia.png",
-    issueDate: "Jun 2025",
-    credentialId: "TO-FILL",
-    credentialUrl: "TO-FILL",
-  },
-  {
     field: "Cybersecurity Professional Certificate",
     organization: "Google",
     logo: "/images/google.png",
@@ -38,6 +14,33 @@ export const certifications = [
     issueDate: "Jun 2025",
     credentialId: "TO-FILL",
     credentialUrl: "TO-FILL",
+  },
+  {
+    field: "Back-End Developer Professional Certificate",
+    organization: "Meta",
+    logo: "/images/meta.png",
+    issueDate: "May 2025",
+    credentialId: "DJIX7KD9J93Q",
+    credentialUrl:
+      "https://www.coursera.org/account/accomplishments/specialization/DJIX7KD9J93Q",
+  },
+  {
+    field: "Front-End Developer Professional Certificate",
+    organization: "Meta",
+    logo: "/images/meta.png",
+    issueDate: "May 2025",
+    credentialId: "N047J07ULE3H",
+    credentialUrl:
+      "https://www.coursera.org/account/accomplishments/specialization/N047J07ULE3H",
+  },
+  {
+    field: "AI Infrastructure and Operations",
+    organization: "NVIDIA",
+    logo: "/images/nvidia.png",
+    issueDate: "May 2025",
+    credentialId: "DUI6S412MMNR",
+    credentialUrl:
+      "https://www.coursera.org/account/accomplishments/records/DUI6S412MMNR",
   },
   {
     field: "Tensorflow Specialization",

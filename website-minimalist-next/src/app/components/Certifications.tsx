@@ -27,7 +27,7 @@ export function Certifications() {
                   alt={organization}
                   width={256}
                   height={256}
-                  className="w-8 h-8 object-contain flex-shrink-0 mt-1 sm:mt-0"
+                  className="w-8 h-8 object-contain flex-shrink-0 mt-1 sm:mt-0 pb-2"
                 />
               )}
 
