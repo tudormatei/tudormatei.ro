@@ -4,16 +4,18 @@ export const certifications = [
     organization: "Google",
     logo: "/images/google.png",
     issueDate: "Jun 2025",
-    credentialId: "TO-FILL",
-    credentialUrl: "TO-FILL",
+    credentialId: "U8UERENCKUII",
+    credentialUrl:
+      "https://www.coursera.org/account/accomplishments/specialization/U8UERENCKUII",
   },
   {
     field: "DevOps and AI on AWS Specialization",
     organization: "Amazon",
     logo: "/images/amazon.png",
     issueDate: "Jun 2025",
-    credentialId: "TO-FILL",
-    credentialUrl: "TO-FILL",
+    credentialId: "SJOWI1F7U44D",
+    credentialUrl:
+      "https://www.coursera.org/account/accomplishments/specialization/SJOWI1F7U44D",
   },
   {
     field: "Back-End Developer Professional Certificate",
