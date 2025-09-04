@@ -19,7 +19,7 @@ export const experience = [
     company: "ENSO Artificial Intelligence",
     role: "DevOps Engineer Intern",
     start: "May 2022",
-    end: "Jul 2023",
+    end: "Jul 2022",
     description:
       "Managed machine learning projects, facilitating collaboration between data scientists and software engineers. Set up and configured Linux-based environments to deploy and run machine learning models, ensuring system reliability and performance.",
   },
