@@ -1,23 +1,5 @@
 export const certifications = [
   {
-    field: "Cybersecurity Professional Certificate",
-    organization: "Google",
-    logo: "/images/google.png",
-    issueDate: "Jun 2025",
-    credentialId: "U8UERENCKUII",
-    credentialUrl:
-      "https://www.coursera.org/account/accomplishments/specialization/U8UERENCKUII",
-  },
-  {
-    field: "DevOps and AI on AWS Specialization",
-    organization: "Amazon",
-    logo: "/images/amazon.png",
-    issueDate: "Jun 2025",
-    credentialId: "SJOWI1F7U44D",
-    credentialUrl:
-      "https://www.coursera.org/account/accomplishments/specialization/SJOWI1F7U44D",
-  },
-  {
     field: "Back-End Developer Professional Certificate",
     organization: "Meta",
     logo: "/images/meta.png",
@@ -34,6 +16,24 @@ export const certifications = [
     credentialId: "N047J07ULE3H",
     credentialUrl:
       "https://www.coursera.org/account/accomplishments/specialization/N047J07ULE3H",
+  },
+  {
+    field: "Cybersecurity Professional Certificate",
+    organization: "Google",
+    logo: "/images/google.png",
+    issueDate: "Jun 2025",
+    credentialId: "U8UERENCKUII",
+    credentialUrl:
+      "https://www.coursera.org/account/accomplishments/specialization/U8UERENCKUII",
+  },
+  {
+    field: "DevOps and AI on AWS Specialization",
+    organization: "Amazon",
+    logo: "/images/amazon.png",
+    issueDate: "Jun 2025",
+    credentialId: "SJOWI1F7U44D",
+    credentialUrl:
+      "https://www.coursera.org/account/accomplishments/specialization/SJOWI1F7U44D",
   },
   {
     field: "AI Infrastructure and Operations",

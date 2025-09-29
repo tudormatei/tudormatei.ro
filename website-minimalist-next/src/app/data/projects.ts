@@ -3,38 +3,28 @@ export const projects = [
     title: "Mayor's Chatbot",
     description:
       "Implemented a comprehensive email automation system for the chatbot of Bucharest's Mayor, Nicușor Dan.",
-    longDescription:
-      "This project automated email workflows, parsing user inputs and integrating with external APIs to provide dynamic responses. It reduced manual email handling completely!",
     tags: ["Python", "Automation"],
     type: "Other",
     image: "/images/nicusordan.png",
     link: "https://nicusordan.ro/",
   },
   {
-    title: "Shotmaniacs",
+    title: "Dorlist",
     description:
-      "Full-stack webapp for shotmaniacs marketing company built with Java, Tomcat, JS, HTML, CSS and PostgreSQL.",
-    tags: ["React", "Java", "PostgreSQL"],
-    type: "Webapp",
-    image: "/images/shotmaniacs.png",
-  },
-  {
-    title: "Audio Insight",
-    description:
-      "Web application developed for real-time note taking through speech recognition.",
-    tags: ["React", "AI", "Python"],
-    type: "Webapp",
-    image: "/images/botgen.png",
+      "Dorlist is a smart wishlist and gift-organizing platform that makes it easy to create, share, and crowdfund gifts with friends and family.",
+    tags: ["NextJS", "React", "NodeJS"],
+    type: "WebApp",
+    image: "/images/dorlist.png",
+    link: "https://www.dorlist.com/",
   },
   {
     title: "Men in Black",
     description:
-      "An end-to-end finance management platform developed for @meninblack.ro.",
-    longDescription:
-      "This project streamlined the Men in Black team’s workflow, boosting financial tracking accuracy by 50% and significantly enhancing organizational efficiency through a platform secured with advanced Spring Security configurations.",
+      "Designed and built a full-stack finance management platform deployed to production, improving staff workflow efficiency by 50% and enabling secure real-time transaction tracking for 25+ users.",
     tags: ["React", "Spring", "PostgreSQL"],
-    type: "Webapp",
+    type: "WebApp",
     image: "/images/meninblack.png",
+    imagePosition: "50% 30%",
     link: "https://meninblack.ro/",
   },
   {
@@ -46,6 +36,26 @@ export const projects = [
     tags: ["Python", "AI"],
     type: "AI",
     image: "/images/jarvis.png",
+    imagePosition: "50% 55%",
+    link: "https://github.com/tudormatei/jarvis-local",
+  },
+  {
+    title: "NoteMark",
+    description:
+      "A fast, distraction‑free Markdown note‑taking app saved locally on your machine for full ownership and portability.",
+    tags: ["Electron", "React", "NodeJS"],
+    type: "Other",
+    image: "/images/notemark.png",
+    link: "https://github.com/tudormatei/note-mark",
+  },
+  {
+    title: "Soap & Tears",
+    description:
+      "Developed for the University of Twente student dorms. Soap & Tears is a simple web app and API for organizing, tracking, and visualizing household chores for roommates and dorms.",
+    tags: ["NextJS", "Firebase"],
+    type: "WebApp",
+    image: "/images/soapandtears.png",
+    link: "https://github.com/tudormatei/soap-and-tears",
   },
   {
     title: "SQLite Clone",
@@ -57,12 +67,31 @@ export const projects = [
     link: "https://github.com/tudormatei/sqlite-clone",
   },
   {
-    title: "gRPC",
+    title: "Git Clone",
     description:
-      "High-performance API service developed using gRPC and Python designed for micro-service communication.",
-    tags: ["Python", "gRPC", "Service"],
+      "A minimal, educational implementation of core Git features in Python. It implements repository initialization, object storage, staging, committing, status, diff, and pushing to a remote repository.",
+    tags: ["Python", "Git"],
     type: "Other",
-    image: "/images/grpc.png",
+    image: "/images/gitClone.png",
+    link: "https://github.com/tudormatei/git-clone",
+  },
+  {
+    title: "Shotmaniacs",
+    description:
+      "Full-stack webapp for shotmaniacs marketing company built with Java, Tomcat, JS, HTML, CSS and PostgreSQL.",
+    tags: ["React", "Java", "PostgreSQL"],
+    type: "WebApp",
+    image: "/images/shotmaniacs.png",
+    link: "https://github.com/tudormatei/shotmaniacs-webapp",
+  },
+  {
+    title: "SwiftDoc",
+    description:
+      "React-based document auto-completion web application built with Spring.",
+    tags: ["React", "Spring", "SQLite"],
+    type: "WebApp",
+    image: "/images/swiftdoc.png",
+    link: "https://github.com/tudormatei/swift-doc",
   },
   {
     title: "Fingerprint GAN",
@@ -71,23 +100,25 @@ export const projects = [
     tags: ["Python", "TensorFlow"],
     type: "AI",
     image: "/images/fingerprint.png",
+    link: "https://github.com/tudormatei/fingerprint-GAN",
+  },
+  {
+    title: "BotGen",
+    description:
+      "Developed the presentation website for BotGen, a company that creates AI-powered chatbots for businesses.",
+    tags: ["React"],
+    type: "WebApp",
+    image: "/images/botgen.png",
+    link: "https://github.com/tudormatei/botgen",
   },
   {
     title: "Barbershop",
     description:
       "Built a barbershop landing website together with appointment making system.",
     tags: ["React"],
-    type: "Webapp",
+    type: "WebApp",
     image: "/images/barbershop.png",
     link: "https://github.com/tudormatei/barber-shop",
-  },
-  {
-    title: "SwiftDoc",
-    description:
-      "React-based document auto-completion web application built with Spring Boot.",
-    tags: ["React", "Spring", "SQLite"],
-    type: "Webapp",
-    image: "/images/swiftdoc.png",
   },
   {
     title: "AI Chatbot",
@@ -107,6 +138,7 @@ export const projects = [
     tags: ["Python", "TensorFlow"],
     type: "AI",
     image: "/images/trafficSign.jpg",
+    link: "https://github.com/tudormatei/extended-essay",
   },
   {
     title: "Slot Sinners",

@@ -5,7 +5,7 @@ import { projects } from "../data/projects";
 import { FiExternalLink } from "react-icons/fi";
 import Image from "next/image";
 
-const FILTERS = ["All", "Webapp", "AI", "Other"];
+const FILTERS = ["All", "WebApp", "AI", "Other"];
 
 export function Projects() {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -13,7 +13,10 @@ export function Projects() {
   const filteredProjects =
     activeFilter === "All"
       ? projects
-      : projects.filter((project) => project.type === activeFilter);
+      : projects.filter(
+          (project) =>
+            project.type.toLowerCase() === activeFilter.toLocaleLowerCase()
+        );
 
   return (
     <section id="projects" className="max-w-4xl mx-auto px-4 py-14">
@@ -40,7 +43,15 @@ export function Projects() {
       {/* Project Cards */}
       <div className=" relative w-full flex flex-wrap justify-center gap-6">
         {filteredProjects.map(
-          ({ title, description, longDescription, tags, image, link }) => (
+          ({
+            title,
+            description,
+            longDescription,
+            tags,
+            image,
+            link,
+            imagePosition,
+          }) => (
             <div
               key={title}
               className="relative w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.333%-1rem)]
@@ -55,7 +66,8 @@ export function Projects() {
                     alt={title}
                     width={500}
                     height={300}
-                    className="h-full w-full object-cover object-center"
+                    className="h-full w-full object-cover"
+                    style={{ objectPosition: imagePosition || "center" }}
                   />
                 </div>
               )}
@@ -92,7 +104,6 @@ export function Projects() {
                       href={link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="opacity-0 group-hover:opacity-100 transition-opacity"
                       aria-label={`Visit ${title}`}
                     >
                       <FiExternalLink className="w-4 h-4 text-gray-500 hover:text-black" />
