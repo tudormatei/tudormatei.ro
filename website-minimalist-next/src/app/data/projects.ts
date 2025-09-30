@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Mayor's Chatbot",
     description:
-      "Implemented a comprehensive email automation system for the chatbot of Bucharest's Mayor, Nicușor Dan.",
+      "Built and deployed an automated email system for the Mayor of Bucharest, handling 10,000+ citizen requests and eliminating manual processing.",
     tags: ["Python", "Automation"],
     type: "Other",
     image: "/images/nicusordan.png",
