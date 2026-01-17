@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { intro } from "./data/intro";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -8,13 +9,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Tudor Matei | Student, Programmer",
-  description:
-    "Computer Science student with hands-on experience in full-stack development, machine learning, and scalable system design.",
+  title: `${intro.name} | ${intro.role}`,
+  description: intro.description,
   openGraph: {
-    title: "Tudor Matei | Student, Programmer",
-    description:
-      "Computer Science student with hands-on experience in full-stack development, machine learning, and scalable system design.",
+    title: `${intro.name} | ${intro.role}`,
+    description: intro.description,
     url: "https://tudormatei.ro/projects",
   },
 };
